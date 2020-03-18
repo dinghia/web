@@ -57,6 +57,36 @@ a:active{
 	font-size: 14px;
 
 }
+#imglist{
+	width: 130px;
+	margin:0 auto;
+}
+.pol{/*设置盒子*/
+	width: 85px;
+	padding: 10px;
+	background-color: #eee;
+	border: 1px solid #bfbfbf;
+	box-shadow:2px 2px 4px #aaa;/*盒子阴影*/
+	border-radius:5px;/*圆角边框*/
+}
+#imglist img{/*设置盒子内的图片*/
+	height: 95px;
+	width: 85px;
+	margin: 0 auto;
+}
+.rotate-left{/*顺时针旋转七度*/
+	-webkit-transform: rotate(7deg);
+	-ms-transform: rotate(7deg);
+	-o-transform: rotate(7deg);
+	transform: rotate(7deg);
+}
+.rotate-right{/*逆时针旋转七度*/
+	-webkit-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+}
+
 #content{
 	float:right;
 	width: 595px;

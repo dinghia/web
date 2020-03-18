@@ -64,6 +64,18 @@ a:active{
 	margin-bottom: 5px;
 	background-color: #cff
 }
+.subcon{
+	width: 570px;
+	margin: 10px auto;/*上下边距有合并效果，两个div之间为10px，而不是20px*/
+	clear:both;
+}
+.subcon img{
+	margin:5px;
+	padding:5px;
+	float:left;
+	border:1px dashed #000; 
+
+}
 #footer{
 	height: 60px;
 	line-height: :60px;/*高度和行高相同，footer部分的文字就会垂直居中对齐*/

@@ -16,6 +16,7 @@ body{
 }
 #nav{
 	height: 30px;
+	line-height: 30px;/*垂直居中*/
 	margin: 5px;
 	background-color: #09c;
 	font: 18px/30px;/*18为字体大小，/后面是行高*/
@@ -23,6 +24,25 @@ body{
 	letter-spacing: 2px;/*字符间距*/
 	text-align: center;/*文本对齐：居中*/
 
+}
+#nav a{
+	text-decoration: none;/*将下面四种状态里的无下划线统一放在这里*/
+}
+a:link{
+	color: #fff;
+	/*text-decoration: none;*/
+}
+a:visited{
+	color:#fff;
+	/*text-decoration: none;*/
+}
+a:hover{
+	color: yellow;
+	/*text-decoration: none;*/
+}
+a:active{
+	color: yellow;
+	/*text-decoration: none;*/
 }
 #main{
 	background-color: #000;
